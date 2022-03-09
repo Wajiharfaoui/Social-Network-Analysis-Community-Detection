@@ -96,7 +96,7 @@ As you can see below, I use the graph dataframe `tbl` to build
 - Closeness centrality using `centrality_closeness()`  
 - Eigen centrality using `centrality_eigen()`
 
-<img src="./Metrics.png" id="id" class="class" style="width:100.0%;height:100.0%" />
+<img src="./img/Metrics.png" id="id" class="class" style="width:100.0%;height:100.0%" />
 
 Now that, I have scores for different metrics, I will try to find to
 find top accounts in each centrality, in order to detect who is the most
@@ -111,7 +111,7 @@ to find that the most influential account belongs to **RRG_Job** which
 is an official Twitter account for \*\*Renault Retail Group\*
 specialized in promoting jobs’ offers.
 
-<img src="./influential.png" id="id" class="class" style="width:100.0%;height:100.0%" />
+<img src="./img/influential.png" id="id" class="class" style="width:100.0%;height:100.0%" />
 
 Finally, I will plot my network. To do so, I’ll scale the nodes by
 degree of centrality, and color it by community, but since our network
@@ -119,7 +119,7 @@ is too large, and it won’t make sense to plot all of it, I choose to
 filter the network by just visualizing top 1000 based on the degree of
 centrality to get this result.
 
-<img src="./Rplot.png" id="id" class="class" style="height:100.0%" width="300" />
+<img src="./img/Rplot.png" id="id" class="class" style="height:100.0%" width="300" />
 
 Through this graph we can see that the “random walk” community detection
 algorithm is approximately having the same structure as *stress* layout
